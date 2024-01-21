@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.search-box input {
+  width: 55%;
+  border-radius: 20px;
+  text-align: center;
+}
+.search-box button {
+  border-radius: 20px;
+}
+.about {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.about button {
+  background-color: rgb(149, 101, 173);
+}
+.no-login {
+  color: red;
+  text-align: center;
+}
