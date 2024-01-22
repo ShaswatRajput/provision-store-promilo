@@ -61,7 +61,7 @@ const LoginPage = () => {
           <div className="input-boxx">
             <img
               style={{ height: "150px", width: "200px" }}
-              src="../../public/pro.png"
+              src="../../pro.png"
               alt="provision-store"
               width="30"
               height="24"

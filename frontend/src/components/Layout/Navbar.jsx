@@ -33,7 +33,7 @@ const Navbar = () => {
             >
               <img
                 style={{ height: "80px", width: "100px" }}
-                src="../../public/pro.png"
+                src="../../pro.png"
                 alt="provision-store"
                 width="30"
                 height="24"
