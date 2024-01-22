@@ -33,8 +33,8 @@ const Navbar = () => {
             >
               <img
                 style={{ height: "80px", width: "100px" }}
-                src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png"
-                alt="Bootstrap"
+                src="../../public/pro.png"
+                alt="provision-store"
                 width="30"
                 height="24"
               />
