@@ -1,41 +1,44 @@
-<ul>
-          <li>
-            <b>
-              <i>Folder Structure</i>
-            </b>
-            <br />
-            <img src="../../../public/folderstruc.png" />
-          </li>
-          <li>
-            <b>
-              <i>Setup</i>
-            </b>
-            <hr />
+# Provision Store Promilo - Vite + React
 
-            <p>To start the project, follow these steps:</p>
-            <ol>
-              <li>
-                Clone the repository:{" "}
-                <code>
-                  git clone [
-                    https://github.com/ShaswatRajput/provision-store-promilo ]
-                </code>
-              </li>
-              <li>Change Directory:<code> cd ./frontend</code></li>
-              <li>
-                Install dependencies: <code>npm install</code>
-              </li>
-              <li>
-                Start the development server: <code>npm run dev</code>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <p>
-              <b>
-                <i>What were the problems that you faced during this project ?</i>
-              </b>
-            </p>
-            
-          </li>
-        </ul>
+This project is a web application for Provision Store Promilo, built with Vite and React.
+
+## About
+
+The `About` page provides information about the project, including the folder structure, setup instructions, and details about challenges faced during development.
+
+## Folder Structure
+
+The project follows a well-organized folder structure to maintain code clarity and scalability. Key folders include:
+
+```plaintext
+/src
+  /components
+    /Common
+      Button.js
+      Input.js
+    /Layout
+      Header.js
+      Navbar.js
+      Footer.js
+    /Pages
+      About.js
+      // Other pages
+  /styles
+    /components
+      Button.css
+      Input.css
+    /layouts
+      Header.css
+      Navbar.css
+      Footer.css
+    /pages
+      About.css
+      // Other page styles
+  /utils
+    api.js
+    helpers.js
+  /assets
+    /images
+    /fonts
+App.js
+index.js
